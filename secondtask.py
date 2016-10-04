@@ -12,5 +12,5 @@ def digstr(number):
     return a
 
 if __name__ == "__main__":
-   print(digstr(567))
+    print(digstr(567))
 
