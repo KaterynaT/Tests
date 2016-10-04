@@ -7,3 +7,4 @@ def revline(line):
     return a
 print(revline("AAA BBB CCC DDD EEE FFF GGG"))
 
+
