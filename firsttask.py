@@ -1,8 +1,8 @@
-"""We have the string like "AAA BBB CCC DDD EEE FFF GGG"
-The task is to split the string into words, to sort them in the reversed order"""
+"""We have the string like "AAA BBB CCC DDD EEE FFF GGG"""""
+"""The task is to split the string into words, to sort them in the reversed order"""
 
 def revline(line):
-    a = line.split(' ')
+    a = list(line)
     a.sort(reverse=True)
     return a
 
