@@ -1,17 +1,11 @@
+
 import os
- 
-testpath = input('Enter file name: ')
- 
-if os.path.exists(testpath):
-    if os.path.isfile(testpath):
-        print('FILE')
-    elif os.path.isdir(testpath):
-        print('Folder')
-        print('objects list: ',os.listdir(testpath))
-else:
-    print('Does not')
-    
-    
-    
-    
-#def check_files(file_name,folder="./",name_prefix=None)
+a = u'/home/katya/Myprojects/Tests'
+def check_files(file_names,folder="/",name_prefix=None):
+    for name in file_names:
+        if os.path.exists(a+folder+name):
+            print ("Exists")
+        else:
+            print ("Does not")
+check_files(["thirdtask.py", "firsttask.py"])
+
