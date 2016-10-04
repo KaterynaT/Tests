@@ -15,3 +15,4 @@ def revline(line, separator=' '):
 
 if __name__ == "__main__":
     print(revline("AAA BBB CCC DDD EEE FFF GGG"))
+
