@@ -3,8 +3,10 @@
 def revline(line):
     #line = "AAA BBB CCC DDD EEE FFF GGG"
     a = line.split(' ')
-    a.sort(reverse = True)
+    a.sort(reverse=True)
     return a
-print(revline("AAA BBB CCC DDD EEE FFF GGG"))
 
-
+if __name__ == "__main__":
+	print(revline("AAA BBB CCC DDD EEE FFF GGG"))
+else:
+    print('I am running as an imported module with name = %s' % __name__)
