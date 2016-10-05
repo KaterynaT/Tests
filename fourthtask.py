@@ -21,3 +21,5 @@ def print_lines(name, n=7):
 
 if __name__ == "__main__":
     check_files(["thirdtask.py", "firsttask.py", "zuat"])
+    
+    
