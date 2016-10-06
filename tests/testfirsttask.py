@@ -1,6 +1,7 @@
 import unittest
 import firsttask
 
+
 class TestSplitFunction(unittest.TestCase):
     def testseparator(self):
         r = firsttask.revline("AAA BBB CCC DDD EEE FFF GGG", separator=' ')
