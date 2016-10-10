@@ -10,17 +10,17 @@
   "Address": [
     {
       "City": "Bangalore", 
+      "Country": "India", 
       "ZipNumber": 560056, 
       "Type": "Office", 
-      "Street": "Nagarbhavi Road", 
-      "Country": "India"
+      "Street": "Nagarbhavi Road"
     }, 
     {
       "City": "Bangalore", 
+      "Country": "India", 
       "ZipNumber": 560004, 
       "Type": "Home", 
-      "Street": "Gandhi Bazaar Road", 
-      "Country": "India"
+      "Street": "Gandhi Bazaar Road"
     }
   ]
 }
