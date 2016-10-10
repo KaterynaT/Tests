@@ -1,12 +1,12 @@
 import json
 
 
-a_dict = {'Home_addres': ' '}
+a_dict = {'Home_address': ' '}
 
 with open ('examplejs.json') as f:
     data = json.load(f)
     for e in f:
-        if e == "Home_addres":
+        if e == "Home_address":
             print ("there is")
         else:
             print ("no information")
