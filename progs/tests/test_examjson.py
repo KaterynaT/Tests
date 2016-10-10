@@ -9,7 +9,7 @@ class TestJsonFile(unittest.TestCase):
         a_dict = {'Home_address': ' '}
         with open('examplejs.json') as f:
             data = json.load(f)
-            if 'Home_addres' in data:
+            if 'Home_address' in data:
                 print ('there is')
             else:
                 data.update(a_dict)
@@ -18,10 +18,10 @@ class TestJsonFile(unittest.TestCase):
             json.dump(data, f, indent=2)
 
     def testcheck2(self):
-        a_dict = {'Another_addr': ' '}
+        a_dict = {'Ano_addr': ' '}
         with open('examplejs.json') as f:
             data = json.load(f)
-            if 'Another_addr' in data:
+            if 'Ano_addr' in data:
                 print ('there is')
             else:
                 data.update(a_dict)
