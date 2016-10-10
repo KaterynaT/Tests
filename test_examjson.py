@@ -3,18 +3,14 @@ import json
 
 a_dict = {'Home_address': ' '}
 
-with open ('examplejs.json') as f:
+with open('examplejs.json') as f:
     data = json.load(f)
-    for e in f:
-        if e == "Home_address":
-            print ("there is")
-        else:
-            print ("no information")
+    if 'Home_address' in data:
+        print ('there is')
+    else:
+        data.update(a_dict)
 
-
-data.update(a_dict)
-
-with open ('examplejs.json', 'w') as f:
+with open('examplejs.json', 'w') as f:
     json.dump(data, f, indent=2)
 
 
