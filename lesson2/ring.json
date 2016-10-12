@@ -1,0 +1,286 @@
+[{
+	        "id": 11,
+	        "last_change_time": "2015-06-26 02:59 PM",
+	        "old_value": 10,
+	        "new_value": 8,
+	        "user": 1,
+	        "inventory": {
+	            "id": 2,
+	            "quantity": -10,
+	            "variant": {
+	                "ring_size": "6",
+	                "id": 2
+	            },
+	            "sku_number": "SKU_0002",
+	            "product": {
+	                "id": 2,
+	                "title": "Cherished Tri-Wick Jewel Candle x 9993",
+	                "type": 1,
+	                "price": "30.00",
+	                "category": 1
+	            }
+	        },
+	        "name_of_user": "admin",
+	        "notes": "",
+	        "one_product_inventory": null
+	    },
+	    {
+	        "id": 12,
+	        "last_change_time": "2015-06-26 03:00 PM",
+	        "old_value": 8,
+	        "new_value": -4,
+	        "user": 1,
+	        "inventory": {
+	            "id": 2,
+	            "quantity": -10,
+	            "variant": {
+	                "ring_size": "6",
+	                "id": 2
+	            },
+	            "sku_number": "SKU_0002",
+	            "product": {
+	                "id": 2,
+	                "title": "Cherished Tri-Wick Jewel Candle x 9993",
+	                "type": 1,
+	                "price": "30.00",
+	                "category": 1
+	            }
+	        },
+	        "name_of_user": "admin",
+	        "notes": "",
+	        "one_product_inventory": null
+	    },
+	    {
+	        "id": 13,
+	        "last_change_time": "2015-06-26 03:25 PM",
+	        "old_value": -4,
+	        "new_value": -10,
+	        "user": 1,
+	        "inventory": {
+	            "id": 2,
+	            "quantity": -10,
+	            "variant": {
+	                "ring_size": "6",
+	                "id": 2
+	            },
+	            "sku_number": "SKU_0002",
+	            "product": {
+	                "id": 2,
+	                "title": "Cherished Tri-Wick Jewel Candle x 9993",
+	                "type": 1,
+	                "price": "30.00",
+	                "category": 1
+	            }
+	        },
+	        "name_of_user": "admin",
+	        "notes": "",
+	        "one_product_inventory": null
+	    },
+	    {
+	        "id": 1,
+	        "last_change_time": "2015-06-26 10:48 AM",
+	        "old_value": 50,
+	        "new_value": 49,
+	        "user": 1,
+	        "inventory": {
+	            "id": 3,
+	            "quantity": 17,
+	            "variant": {
+	                "ring_size": "7",
+	                "id": 3
+	            },
+	            "sku_number": "SKU_0003",
+	            "product": {
+	                "id": 3,
+	                "title": "Tranquility - Lavender Fragrance Candle x 6373",
+	                "type": 1,
+	                "price": "30.00",
+	                "category": 1
+	            }
+	        },
+	        "name_of_user": "admin",
+	        "notes": "",
+	        "one_product_inventory": null
+	    },
+	    {
+	        "id": 2,
+	        "last_change_time": "2015-06-26 10:48 AM",
+	        "old_value": 49,
+	        "new_value": 48,
+	        "user": 1,
+	        "inventory": {
+	            "id": 3,
+	            "quantity": 17,
+	            "variant": {
+	                "ring_size": "7",
+	                "id": 3
+	            },
+	            "sku_number": "SKU_0003",
+	            "product": {
+	                "id": 3,
+	                "title": "Tranquility - Lavender Fragrance Candle x 6373",
+	                "type": 1,
+	                "price": "30.00",
+	                "category": 1
+	            }
+	        },
+	        "name_of_user": "admin",
+	        "notes": "",
+	        "one_product_inventory": null
+	    },
+	    {
+	        "id": 3,
+	        "last_change_time": "2015-06-26 10:49 AM",
+	        "old_value": 48,
+	        "new_value": 49,
+	        "user": 1,
+	        "inventory": {
+	            "id": 3,
+	            "quantity": 17,
+	            "variant": {
+	                "ring_size": "7",
+	                "id": 3
+	            },
+	            "sku_number": "SKU_0003",
+	            "product": {
+	                "id": 3,
+	                "title": "Tranquility - Lavender Fragrance Candle x 6373",
+	                "type": 1,
+	                "price": "30.00",
+	                "category": 1
+	            }
+	        },
+	        "name_of_user": "admin",
+	        "notes": "",
+	        "one_product_inventory": null
+	    },
+	    {
+	        "id": 7,
+	        "last_change_time": "2015-06-26 11:09 AM",
+	        "old_value": 49,
+	        "new_value": 44,
+	        "user": 1,
+	        "inventory": {
+	            "id": 3,
+	            "quantity": 17,
+	            "variant": {
+	                "ring_size": "7",
+	                "id": 3
+	            },
+	            "sku_number": "SKU_0003",
+	            "product": {
+	                "id": 3,
+	                "title": "Tranquility - Lavender Fragrance Candle x 6373",
+	                "type": 1,
+	                "price": "30.00",
+	                "category": 1
+	            }
+	        },
+	        "name_of_user": "admin",
+	        "notes": "",
+	        "one_product_inventory": null
+	    },
+	    {
+	        "id": 9,
+	        "last_change_time": "2015-06-26 11:20 AM",
+	        "old_value": 44,
+	        "new_value": 17,
+	        "user": 1,
+	        "inventory": {
+	            "id": 3,
+	            "quantity": 17,
+	            "variant": {
+	                "ring_size": "7",
+	                "id": 3
+	            },
+	            "sku_number": "SKU_0003",
+	            "product": {
+	                "id": 3,
+	                "title": "Tranquility - Lavender Fragrance Candle x 6373",
+	                "type": 1,
+	                "price": "30.00",
+	                "category": 1
+	            }
+	        },
+	        "name_of_user": "admin",
+	        "notes": "",
+	        "one_product_inventory": null
+	    },
+	    {
+	        "id": 4,
+	        "last_change_time": "2015-06-26 10:49 AM",
+	        "old_value": -30,
+	        "new_value": -31,
+	        "user": 1,
+	        "inventory": {
+	            "id": 4,
+	            "quantity": -29,
+	            "variant": {
+	                "ring_size": "8",
+	                "id": 4
+	            },
+	            "sku_number": "SKU_0004",
+	            "product": {
+	                "id": 3,
+	                "title": "Tranquility - Lavender Fragrance Candle x 6373",
+	                "type": 1,
+	                "price": "30.00",
+	                "category": 1
+	            }
+	        },
+	        "name_of_user": "admin",
+	        "notes": "",
+	        "one_product_inventory": null
+	    },
+	    {
+	        "id": 6,
+	        "last_change_time": "2015-06-26 11:09 AM",
+	        "old_value": -31,
+	        "new_value": -29,
+	        "user": 1,
+	        "inventory": {
+	            "id": 4,
+	            "quantity": -29,
+	            "variant": {
+	                "ring_size": "8",
+	                "id": 4
+	            },
+	            "sku_number": "SKU_0004",
+	            "product": {
+	                "id": 3,
+	                "title": "Tranquility - Lavender Fragrance Candle x 6373",
+	                "type": 1,
+	                "price": "30.00",
+	                "category": 1
+	            }
+	        },
+	        "name_of_user": "admin",
+	        "notes": "",
+	        "one_product_inventory": null
+	    },
+	    {
+	        "id": 5,
+	        "last_change_time": "2015-06-26 10:49 AM",
+	        "old_value": 0,
+	        "new_value": -1,
+	        "user": 1,
+	        "inventory": {
+	            "id": 5,
+	            "quantity": -6,
+	            "variant": {
+	                "ring_size": "9",
+	                "id": 5
+	            },
+	            "sku_number": "SKU_0005",
+	            "product": {
+	                "id": 3,
+	                "title": "Tranquility - Lavender Fragrance Candle x 6373",
+	                "type": 1,
+	                "price": "30.00",
+	                "category": 1
+	            }
+	        },
+	        "name_of_user": "admin",
+	        "notes": "",
+	        "one_product_inventory": null
+	    }]
