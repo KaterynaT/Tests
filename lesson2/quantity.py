@@ -13,7 +13,14 @@ def products(any_json_file):
         for i in data:
             quantity = i['inventory'].get('quantity')
             ring_size = int(i["inventory"]['variant'].get('ring_size'))
-            items[ring_size] = quantity
+            # try:
+            #     items[ring_size] += quantity
+            # except:
+            #     items[ring_size] = quantity
+            if ring_size in items:
+                items[ring_size] += quantity
+            else:
+                items[ring_size] = quantity
         print items
 products('ring.json')
 
