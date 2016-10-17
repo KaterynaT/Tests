@@ -1,24 +1,34 @@
 from functools32 import wraps
 
-def memorize(function):
-    memo = {}
-    @wraps(function)
-    def wrapper(*args):
-        if args in memo:
-            return memo[args]
-        else:
-            rv = function(*args)
-            memo[args] = rv
-            return rv
-    return wrapper
 
-@memorize
+
+def memorize(max_length=5):
+    memo = {}
+    def real_decorator(function):
+        @wraps(function)
+        def wrapper(args):
+            # print(max_length, len(memo))
+            if memo.get(args, None):
+                return memo[args]
+            else:
+                rv = function(args)
+                memo[args] = rv
+                if len(memo) == max_length:
+                    del(memo[memo.keys()[0]])
+            return rv
+        return wrapper
+    return real_decorator
+@memorize()
 def fibonacci(n):
-    if n < 2: return n
+    print('***')
+    if n < 2:
+        return n
     return fibonacci(n - 1) + fibonacci(n - 2)
 
-print fibonacci(25)
 
+print (fibonacci(19))
+print('=' * 50)
+print (fibonacci(40))
 
 
 
