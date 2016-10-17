@@ -1,14 +1,25 @@
-from functools32 import lru_cache
+from functools32 import wraps
 
-@lru_cache(maxsize=10)
-def fib(n):
-    if n < 2:
-        return n
-    return fib(n-1) + fib(n-2)
+def memorize(function):
+    memo = {}
+    @wraps(function)
+    def wrapper(*args):
+        if args in memo:
+            return memo[args]
+        else:
+            rv = function(*args)
+            memo[args] = rv
+            return rv
+    return wrapper
 
-print([fib(n) for n in range(16)])
+@memorize
+def fibonacci(n):
+    if n < 2: return n
+    return fibonacci(n - 1) + fibonacci(n - 2)
 
-print(fib.cache_info())
+print fibonacci(25)
+
+
 
 
 
