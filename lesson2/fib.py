@@ -1,9 +1,9 @@
 from functools32 import wraps
 
 
-
 def memorize(max_length=5):
     memo = {}
+
     def real_decorator(function):
         @wraps(function)
         def wrapper(args):
@@ -18,6 +18,8 @@ def memorize(max_length=5):
             return rv
         return wrapper
     return real_decorator
+
+
 @memorize()
 def fibonacci(n):
     print('***')
@@ -29,8 +31,3 @@ def fibonacci(n):
 print (fibonacci(19))
 print('=' * 50)
 print (fibonacci(40))
-
-
-
-
-
