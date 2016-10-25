@@ -10,17 +10,14 @@ def memorize(max_length=5):
 
     def real_decorator(function):
         @wraps(function)
-        def wrapper(args):
-            if memo.get(args, None):
-                return memo[args]
+        def wrapper(value):
+            if memo.get(value):
+                return memo[value]
             else:
-                remembered_fibonacci_number = function(args)
-                memo[args] = remembered_fibonacci_number
+                memo[value] = function(value)
                 if len(memo) == max_length:
                     del(memo[memo.keys()[0]])
-            # print remembered_fibonacci_number
-            # print memo
-            return remembered_fibonacci_number
+            return function(value)
         return wrapper
     return real_decorator
 
@@ -33,7 +30,6 @@ def fibonacci(n):
     return fibonacci(n - 1) + fibonacci(n - 2)
 
 
-print (fibonacci(19))
-print('=' * 10)
-print (fibonacci(34))
-
+print (fibonacci(10))
+# print('=' * 10)
+# print (fibonacci(34))
