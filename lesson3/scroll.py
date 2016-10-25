@@ -1,3 +1,9 @@
+"""
+Using the PIL(pilllow) Python library, draw the scroll box showing the value,
+on which it is moved left or right(from 0 to 100).  Make the
+runner ellipsoid, so that it would better fit the box.
+"""
+
 from PIL import Image, ImageFont, ImageDraw
 
 
@@ -19,3 +25,4 @@ def draw_little_rect(scroll):
     im.save("rectangle.png")
 
 draw_little_rect(10)
+
