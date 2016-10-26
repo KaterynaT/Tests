@@ -1,0 +1,6 @@
+ddt==1.1.1
+functools32==3.2.3.post2
+pytest==3.0.3
+requests==2.11.1
+setuptools==20.7.0
+Pillow==3.4.2
