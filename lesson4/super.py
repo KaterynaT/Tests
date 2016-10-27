@@ -17,3 +17,4 @@ class MyClass(Mixin):
 
 obj = MyClass()
 obj.name_of_class()
+
